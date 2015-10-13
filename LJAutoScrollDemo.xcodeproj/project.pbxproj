@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A80C5B471BCD1D4600142AE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A80C5B461BCD1D4600142AE6 /* main.m */; };
+		A80C5B4A1BCD1D4600142AE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A80C5B491BCD1D4600142AE6 /* AppDelegate.m */; };
+		A80C5B4D1BCD1D4600142AE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A80C5B4C1BCD1D4600142AE6 /* ViewController.m */; };
+		A80C5B501BCD1D4600142AE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80C5B4E1BCD1D4600142AE6 /* Main.storyboard */; };
+		A80C5B521BCD1D4600142AE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A80C5B511BCD1D4600142AE6 /* Assets.xcassets */; };
+		A80C5B551BCD1D4600142AE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A80C5B531BCD1D4600142AE6 /* LaunchScreen.storyboard */; };
+		A80C5B601BCD1D4600142AE6 /* LJAutoScrollDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A80C5B5F1BCD1D4600142AE6 /* LJAutoScrollDemoTests.m */; };
+		A80C5B6B1BCD1D4600142AE6 /* LJAutoScrollDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A80C5B6A1BCD1D4600142AE6 /* LJAutoScrollDemoUITests.m */; };
+		A80C5B7D1BCD1DAE00142AE6 /* LJAutoScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A80C5B7A1BCD1DAE00142AE6 /* LJAutoScrollCell.m */; settings = {ASSET_TAGS = (); }; };
+		A80C5B7E1BCD1DAE00142AE6 /* LJAutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A80C5B7C1BCD1DAE00142AE6 /* LJAutoScrollView.m */; settings = {ASSET_TAGS = (); }; };
+		A80C5B801BCD23D600142AE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80C5B7F1BCD23D600142AE6 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A80C5B5C1BCD1D4600142AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80C5B3A1BCD1D4600142AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80C5B411BCD1D4600142AE6;
+			remoteInfo = LJAutoScrollDemo;
+		};
+		A80C5B671BCD1D4600142AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A80C5B3A1BCD1D4600142AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A80C5B411BCD1D4600142AE6;
+			remoteInfo = LJAutoScrollDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A80C5B421BCD1D4600142AE6 /* LJAutoScrollDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LJAutoScrollDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80C5B461BCD1D4600142AE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A80C5B481BCD1D4600142AE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A80C5B491BCD1D4600142AE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A80C5B4B1BCD1D4600142AE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A80C5B4C1BCD1D4600142AE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A80C5B4F1BCD1D4600142AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A80C5B511BCD1D4600142AE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A80C5B541BCD1D4600142AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A80C5B561BCD1D4600142AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80C5B5B1BCD1D4600142AE6 /* LJAutoScrollDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJAutoScrollDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80C5B5F1BCD1D4600142AE6 /* LJAutoScrollDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJAutoScrollDemoTests.m; sourceTree = "<group>"; };
+		A80C5B611BCD1D4600142AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80C5B661BCD1D4600142AE6 /* LJAutoScrollDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LJAutoScrollDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A80C5B6A1BCD1D4600142AE6 /* LJAutoScrollDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LJAutoScrollDemoUITests.m; sourceTree = "<group>"; };
+		A80C5B6C1BCD1D4600142AE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A80C5B791BCD1DAE00142AE6 /* LJAutoScrollCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJAutoScrollCell.h; path = LJAutoScrollView/LJAutoScrollCell.h; sourceTree = "<group>"; };
+		A80C5B7A1BCD1DAE00142AE6 /* LJAutoScrollCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJAutoScrollCell.m; path = LJAutoScrollView/LJAutoScrollCell.m; sourceTree = "<group>"; };
+		A80C5B7B1BCD1DAE00142AE6 /* LJAutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJAutoScrollView.h; path = LJAutoScrollView/LJAutoScrollView.h; sourceTree = "<group>"; };
+		A80C5B7C1BCD1DAE00142AE6 /* LJAutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJAutoScrollView.m; path = LJAutoScrollView/LJAutoScrollView.m; sourceTree = "<group>"; };
+		A80C5B7F1BCD23D600142AE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A80C5B3F1BCD1D4600142AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80C5B801BCD23D600142AE6 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80C5B581BCD1D4600142AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80C5B631BCD1D4600142AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A80C5B391BCD1D4600142AE6 = {
+			isa = PBXGroup;
+			children = (
+				A80C5B7F1BCD23D600142AE6 /* UIKit.framework */,
+				A80C5B781BCD1D5A00142AE6 /* LJAutoScrollView */,
+				A80C5B441BCD1D4600142AE6 /* LJAutoScrollDemo */,
+				A80C5B5E1BCD1D4600142AE6 /* LJAutoScrollDemoTests */,
+				A80C5B691BCD1D4600142AE6 /* LJAutoScrollDemoUITests */,
+				A80C5B431BCD1D4600142AE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A80C5B431BCD1D4600142AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A80C5B421BCD1D4600142AE6 /* LJAutoScrollDemo.app */,
+				A80C5B5B1BCD1D4600142AE6 /* LJAutoScrollDemoTests.xctest */,
+				A80C5B661BCD1D4600142AE6 /* LJAutoScrollDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A80C5B441BCD1D4600142AE6 /* LJAutoScrollDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A80C5B481BCD1D4600142AE6 /* AppDelegate.h */,
+				A80C5B491BCD1D4600142AE6 /* AppDelegate.m */,
+				A80C5B4B1BCD1D4600142AE6 /* ViewController.h */,
+				A80C5B4C1BCD1D4600142AE6 /* ViewController.m */,
+				A80C5B4E1BCD1D4600142AE6 /* Main.storyboard */,
+				A80C5B511BCD1D4600142AE6 /* Assets.xcassets */,
+				A80C5B531BCD1D4600142AE6 /* LaunchScreen.storyboard */,
+				A80C5B561BCD1D4600142AE6 /* Info.plist */,
+				A80C5B451BCD1D4600142AE6 /* Supporting Files */,
+			);
+			path = LJAutoScrollDemo;
+			sourceTree = "<group>";
+		};
+		A80C5B451BCD1D4600142AE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A80C5B461BCD1D4600142AE6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A80C5B5E1BCD1D4600142AE6 /* LJAutoScrollDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A80C5B5F1BCD1D4600142AE6 /* LJAutoScrollDemoTests.m */,
+				A80C5B611BCD1D4600142AE6 /* Info.plist */,
+			);
+			path = LJAutoScrollDemoTests;
+			sourceTree = "<group>";
+		};
+		A80C5B691BCD1D4600142AE6 /* LJAutoScrollDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A80C5B6A1BCD1D4600142AE6 /* LJAutoScrollDemoUITests.m */,
+				A80C5B6C1BCD1D4600142AE6 /* Info.plist */,
+			);
+			path = LJAutoScrollDemoUITests;
+			sourceTree = "<group>";
+		};
+		A80C5B781BCD1D5A00142AE6 /* LJAutoScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				A80C5B791BCD1DAE00142AE6 /* LJAutoScrollCell.h */,
+				A80C5B7A1BCD1DAE00142AE6 /* LJAutoScrollCell.m */,
+				A80C5B7B1BCD1DAE00142AE6 /* LJAutoScrollView.h */,
+				A80C5B7C1BCD1DAE00142AE6 /* LJAutoScrollView.m */,
+			);
+			name = LJAutoScrollView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A80C5B411BCD1D4600142AE6 /* LJAutoScrollDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80C5B6F1BCD1D4600142AE6 /* Build configuration list for PBXNativeTarget "LJAutoScrollDemo" */;
+			buildPhases = (
+				A80C5B3E1BCD1D4600142AE6 /* Sources */,
+				A80C5B3F1BCD1D4600142AE6 /* Frameworks */,
+				A80C5B401BCD1D4600142AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LJAutoScrollDemo;
+			productName = LJAutoScrollDemo;
+			productReference = A80C5B421BCD1D4600142AE6 /* LJAutoScrollDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A80C5B5A1BCD1D4600142AE6 /* LJAutoScrollDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80C5B721BCD1D4600142AE6 /* Build configuration list for PBXNativeTarget "LJAutoScrollDemoTests" */;
+			buildPhases = (
+				A80C5B571BCD1D4600142AE6 /* Sources */,
+				A80C5B581BCD1D4600142AE6 /* Frameworks */,
+				A80C5B591BCD1D4600142AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80C5B5D1BCD1D4600142AE6 /* PBXTargetDependency */,
+			);
+			name = LJAutoScrollDemoTests;
+			productName = LJAutoScrollDemoTests;
+			productReference = A80C5B5B1BCD1D4600142AE6 /* LJAutoScrollDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A80C5B651BCD1D4600142AE6 /* LJAutoScrollDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80C5B751BCD1D4600142AE6 /* Build configuration list for PBXNativeTarget "LJAutoScrollDemoUITests" */;
+			buildPhases = (
+				A80C5B621BCD1D4600142AE6 /* Sources */,
+				A80C5B631BCD1D4600142AE6 /* Frameworks */,
+				A80C5B641BCD1D4600142AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A80C5B681BCD1D4600142AE6 /* PBXTargetDependency */,
+			);
+			name = LJAutoScrollDemoUITests;
+			productName = LJAutoScrollDemoUITests;
+			productReference = A80C5B661BCD1D4600142AE6 /* LJAutoScrollDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A80C5B3A1BCD1D4600142AE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Jinxing Liao";
+				TargetAttributes = {
+					A80C5B411BCD1D4600142AE6 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					A80C5B5A1BCD1D4600142AE6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A80C5B411BCD1D4600142AE6;
+					};
+					A80C5B651BCD1D4600142AE6 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = A80C5B411BCD1D4600142AE6;
+					};
+				};
+			};
+			buildConfigurationList = A80C5B3D1BCD1D4600142AE6 /* Build configuration list for PBXProject "LJAutoScrollDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A80C5B391BCD1D4600142AE6;
+			productRefGroup = A80C5B431BCD1D4600142AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A80C5B411BCD1D4600142AE6 /* LJAutoScrollDemo */,
+				A80C5B5A1BCD1D4600142AE6 /* LJAutoScrollDemoTests */,
+				A80C5B651BCD1D4600142AE6 /* LJAutoScrollDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A80C5B401BCD1D4600142AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80C5B551BCD1D4600142AE6 /* LaunchScreen.storyboard in Resources */,
+				A80C5B521BCD1D4600142AE6 /* Assets.xcassets in Resources */,
+				A80C5B501BCD1D4600142AE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80C5B591BCD1D4600142AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80C5B641BCD1D4600142AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A80C5B3E1BCD1D4600142AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80C5B4D1BCD1D4600142AE6 /* ViewController.m in Sources */,
+				A80C5B4A1BCD1D4600142AE6 /* AppDelegate.m in Sources */,
+				A80C5B7E1BCD1DAE00142AE6 /* LJAutoScrollView.m in Sources */,
+				A80C5B471BCD1D4600142AE6 /* main.m in Sources */,
+				A80C5B7D1BCD1DAE00142AE6 /* LJAutoScrollCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80C5B571BCD1D4600142AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80C5B601BCD1D4600142AE6 /* LJAutoScrollDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A80C5B621BCD1D4600142AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A80C5B6B1BCD1D4600142AE6 /* LJAutoScrollDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A80C5B5D1BCD1D4600142AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A80C5B411BCD1D4600142AE6 /* LJAutoScrollDemo */;
+			targetProxy = A80C5B5C1BCD1D4600142AE6 /* PBXContainerItemProxy */;
+		};
+		A80C5B681BCD1D4600142AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A80C5B411BCD1D4600142AE6 /* LJAutoScrollDemo */;
+			targetProxy = A80C5B671BCD1D4600142AE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A80C5B4E1BCD1D4600142AE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80C5B4F1BCD1D4600142AE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A80C5B531BCD1D4600142AE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A80C5B541BCD1D4600142AE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A80C5B6D1BCD1D4600142AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A80C5B6E1BCD1D4600142AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A80C5B701BCD1D4600142AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJAutoScrollDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.jinxing.LJAutoScrollDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A80C5B711BCD1D4600142AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LJAutoScrollDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.jinxing.LJAutoScrollDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A80C5B731BCD1D4600142AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LJAutoScrollDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.jinxing.LJAutoScrollDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJAutoScrollDemo.app/LJAutoScrollDemo";
+			};
+			name = Debug;
+		};
+		A80C5B741BCD1D4600142AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LJAutoScrollDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.jinxing.LJAutoScrollDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LJAutoScrollDemo.app/LJAutoScrollDemo";
+			};
+			name = Release;
+		};
+		A80C5B761BCD1D4600142AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LJAutoScrollDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.jinxing.LJAutoScrollDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJAutoScrollDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A80C5B771BCD1D4600142AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LJAutoScrollDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.jinxing.LJAutoScrollDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LJAutoScrollDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80C5B3D1BCD1D4600142AE6 /* Build configuration list for PBXProject "LJAutoScrollDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80C5B6D1BCD1D4600142AE6 /* Debug */,
+				A80C5B6E1BCD1D4600142AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80C5B6F1BCD1D4600142AE6 /* Build configuration list for PBXNativeTarget "LJAutoScrollDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80C5B701BCD1D4600142AE6 /* Debug */,
+				A80C5B711BCD1D4600142AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A80C5B721BCD1D4600142AE6 /* Build configuration list for PBXNativeTarget "LJAutoScrollDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80C5B731BCD1D4600142AE6 /* Debug */,
+				A80C5B741BCD1D4600142AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A80C5B751BCD1D4600142AE6 /* Build configuration list for PBXNativeTarget "LJAutoScrollDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A80C5B761BCD1D4600142AE6 /* Debug */,
+				A80C5B771BCD1D4600142AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A80C5B3A1BCD1D4600142AE6 /* Project object */;
+}
