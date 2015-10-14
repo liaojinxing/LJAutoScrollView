@@ -9,6 +9,13 @@ LJAutoScrollView class provides an endlessly circulate scroll view. It allows au
 
 - The implement of infinite scroll is inspired by this page:[Circular Infinite UIScrollView]
 
+Compared to [GBInfiniteScrollView], it is more stable and easier to use:
+- GBInfiniteScrollView is subclass from UIScrollView, while LJAutoScrollView uses UICollectionView, it's more stable on reuse feature and gesture recognization.
+
+- LJAutoScrollView integrates UIPageControl as well. You need not to handle the page change yourself.
+
+- It's easier to use. The usage is described below.
+
 Installation
 ----------
 Grab the source file into your project.
@@ -45,3 +52,4 @@ License
 LJAutoScrollView is available under the MIT license. See the LICENSE file for more info.
 
 [Circular Infinite UIScrollView]:http://iosdevelopertips.com/user-interface/creating-circular-and-infinite-uiscrollviews.html
+[GBInfiniteScrollView]:https://github.com/gblancogarcia/GBInfiniteScrollView
