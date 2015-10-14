@@ -45,6 +45,7 @@ static NSString *kLJAutoScrollCellID = @"kLJAutoScrollCellID";
         self.pageControl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, frame.size.height - 20, frame.size.width, 20)];
         self.pageControl.pageIndicatorTintColor = [UIColor whiteColor];
         self.pageControl.currentPageIndicatorTintColor = [UIColor grayColor];
+        self.pageControl.hidesForSinglePage = YES;
         [self addSubview:self.pageControl];
 
         self.numberOfPages = 0;
@@ -96,6 +97,9 @@ static NSString *kLJAutoScrollCellID = @"kLJAutoScrollCellID";
     }
     if (self.delegate && [self.delegate respondsToSelector:@selector(numberOfPagesInAutoScrollView:)]) {
         NSInteger count = [self.delegate numberOfPagesInAutoScrollView:self];
+        if (count == 0) {
+            return 0;
+        }
         [self setNumberOfPages:count];
         return count + 2;
     }
@@ -154,6 +158,9 @@ static NSString *kLJAutoScrollCellID = @"kLJAutoScrollCellID";
 
 - (void)scrollToNextPage
 {
+    if (self.numberOfPages == 0 || self.numberOfPages == 1) {
+        return;
+    }
     CGPoint offset = self.collectionView.contentOffset;
     NSInteger currentPage = floor(offset.x / self.itemSize.width);
     if (currentPage != self.numberOfPages + 1) {
