@@ -9,6 +9,8 @@ LJAutoScrollView class provides an endlessly circulate scroll view. It allows au
 
 - The implement of infinite scroll is inspired by this page:[Circular Infinite UIScrollView]
 
+![LJAutoScrollView](LJAutoScrollView.gif)
+
 Comparison
 -----------
 
