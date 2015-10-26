@@ -92,9 +92,6 @@ static NSString *kLJAutoScrollCellID = @"kLJAutoScrollCellID";
 #pragma mark - UICollectionViewDataSource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
 {
-    if (self.numberOfPages) {
-        return self.numberOfPages + 2;
-    }
     if (self.delegate && [self.delegate respondsToSelector:@selector(numberOfPagesInAutoScrollView:)]) {
         NSInteger count = [self.delegate numberOfPagesInAutoScrollView:self];
         if (count == 0) {
@@ -102,6 +99,9 @@ static NSString *kLJAutoScrollCellID = @"kLJAutoScrollCellID";
         }
         [self setNumberOfPages:count];
         return count + 2;
+    }
+    if (self.numberOfPages) {
+        return self.numberOfPages + 2;
     }
     return 0;
 }
