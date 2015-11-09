@@ -26,6 +26,12 @@
 
 @property (nonatomic, assign) NSInteger numberOfPages;
 
+/* set whether to show UIPageIndicator, default is YES */
+@property (nonatomic, assign) BOOL showPageIndicator;
+
+/* If showPageIndicator, set the offset relative to super view, default is -20 */
+@property (nonatomic, assign) CGFloat pageIndicatorOffset;
+
 /* Interval in seconds for scrollView to auto scroll, default is 5.0 */
 @property (nonatomic, assign) CGFloat scrollInterval;
 

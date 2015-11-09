@@ -61,6 +61,18 @@ static NSString *kLJAutoScrollCellID = @"kLJAutoScrollCellID";
     [self stopAutoScroll];
 }
 
+- (void)setShowPageIndicator:(BOOL)showPageIndicator
+{
+    [self.pageControl setHidden:!showPageIndicator];
+}
+
+- (void)setPageIndicatorOffset:(CGFloat)pageIndicatorOffset
+{
+    CGRect frame = self.pageControl.frame;
+    frame.origin.y = self.frame.size.height + pageIndicatorOffset;
+    [self.pageControl setFrame:frame];
+}
+
 - (void)setPageIndicatorTintColor:(UIColor *)pageIndicatorTintColor
 {
     [self.pageControl setPageIndicatorTintColor:pageIndicatorTintColor];
