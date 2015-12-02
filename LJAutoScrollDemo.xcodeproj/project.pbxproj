@@ -18,6 +18,11 @@
 		A80C5B7D1BCD1DAE00142AE6 /* LJAutoScrollCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A80C5B7A1BCD1DAE00142AE6 /* LJAutoScrollCell.m */; settings = {ASSET_TAGS = (); }; };
 		A80C5B7E1BCD1DAE00142AE6 /* LJAutoScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = A80C5B7C1BCD1DAE00142AE6 /* LJAutoScrollView.m */; settings = {ASSET_TAGS = (); }; };
 		A80C5B801BCD23D600142AE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A80C5B7F1BCD23D600142AE6 /* UIKit.framework */; };
+		A88BDA461C0F10FE008D7F00 /* s1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A88BDA411C0F10FE008D7F00 /* s1.jpg */; settings = {ASSET_TAGS = (); }; };
+		A88BDA471C0F10FE008D7F00 /* s2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A88BDA421C0F10FE008D7F00 /* s2.jpg */; settings = {ASSET_TAGS = (); }; };
+		A88BDA481C0F10FE008D7F00 /* s3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A88BDA431C0F10FE008D7F00 /* s3.jpg */; settings = {ASSET_TAGS = (); }; };
+		A88BDA491C0F10FE008D7F00 /* s4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A88BDA441C0F10FE008D7F00 /* s4.jpg */; settings = {ASSET_TAGS = (); }; };
+		A88BDA4A1C0F10FE008D7F00 /* s5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A88BDA451C0F10FE008D7F00 /* s5.jpg */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		A80C5B7B1BCD1DAE00142AE6 /* LJAutoScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LJAutoScrollView.h; path = LJAutoScrollView/LJAutoScrollView.h; sourceTree = "<group>"; };
 		A80C5B7C1BCD1DAE00142AE6 /* LJAutoScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LJAutoScrollView.m; path = LJAutoScrollView/LJAutoScrollView.m; sourceTree = "<group>"; };
 		A80C5B7F1BCD23D600142AE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A88BDA411C0F10FE008D7F00 /* s1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s1.jpg; sourceTree = "<group>"; };
+		A88BDA421C0F10FE008D7F00 /* s2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s2.jpg; sourceTree = "<group>"; };
+		A88BDA431C0F10FE008D7F00 /* s3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s3.jpg; sourceTree = "<group>"; };
+		A88BDA441C0F10FE008D7F00 /* s4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s4.jpg; sourceTree = "<group>"; };
+		A88BDA451C0F10FE008D7F00 /* s5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = s5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +122,7 @@
 		A80C5B441BCD1D4600142AE6 /* LJAutoScrollDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A88BDA401C0F10FE008D7F00 /* Resource */,
 				A80C5B481BCD1D4600142AE6 /* AppDelegate.h */,
 				A80C5B491BCD1D4600142AE6 /* AppDelegate.m */,
 				A80C5B4B1BCD1D4600142AE6 /* ViewController.h */,
@@ -160,6 +171,18 @@
 				A80C5B7C1BCD1DAE00142AE6 /* LJAutoScrollView.m */,
 			);
 			name = LJAutoScrollView;
+			sourceTree = "<group>";
+		};
+		A88BDA401C0F10FE008D7F00 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A88BDA411C0F10FE008D7F00 /* s1.jpg */,
+				A88BDA421C0F10FE008D7F00 /* s2.jpg */,
+				A88BDA431C0F10FE008D7F00 /* s3.jpg */,
+				A88BDA441C0F10FE008D7F00 /* s4.jpg */,
+				A88BDA451C0F10FE008D7F00 /* s5.jpg */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,7 +288,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A88BDA491C0F10FE008D7F00 /* s4.jpg in Resources */,
+				A88BDA471C0F10FE008D7F00 /* s2.jpg in Resources */,
+				A88BDA481C0F10FE008D7F00 /* s3.jpg in Resources */,
 				A80C5B551BCD1D4600142AE6 /* LaunchScreen.storyboard in Resources */,
+				A88BDA461C0F10FE008D7F00 /* s1.jpg in Resources */,
+				A88BDA4A1C0F10FE008D7F00 /* s5.jpg in Resources */,
 				A80C5B521BCD1D4600142AE6 /* Assets.xcassets in Resources */,
 				A80C5B501BCD1D4600142AE6 /* Main.storyboard in Resources */,
 			);
@@ -522,6 +550,7 @@
 				A80C5B711BCD1D4600142AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80C5B721BCD1D4600142AE6 /* Build configuration list for PBXNativeTarget "LJAutoScrollDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +559,7 @@
 				A80C5B741BCD1D4600142AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A80C5B751BCD1D4600142AE6 /* Build configuration list for PBXNativeTarget "LJAutoScrollDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +568,7 @@
 				A80C5B771BCD1D4600142AE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

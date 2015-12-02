@@ -21,10 +21,10 @@ static const CGFloat kAutoScrollViewHeight = 200;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.autoScrollView = [[LJAutoScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, kAutoScrollViewHeight)];
+    self.autoScrollView = [[LJAutoScrollView alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, kAutoScrollViewHeight)];
     self.autoScrollView.delegate = self;
     self.autoScrollView.itemSize = CGSizeMake(self.view.frame.size.width, kAutoScrollViewHeight);
-    self.autoScrollView.scrollInterval = 3.0f;
+    self.autoScrollView.scrollInterval = 1.0f;
     [self.view addSubview:self.autoScrollView];
 }
 
@@ -42,12 +42,12 @@ static const CGFloat kAutoScrollViewHeight = 200;
 
 - (UIView *)autoScrollView:(LJAutoScrollView *)autoScrollView customViewForIndex:(NSInteger)index
 {
-    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, kAutoScrollViewHeight)];
-    [label setBackgroundColor:[UIColor redColor]];
-    [label setTextColor:[UIColor whiteColor]];
-    label.textAlignment = NSTextAlignmentCenter;
-    [label setText:@(index).stringValue];
-    return label;
+    UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, kAutoScrollViewHeight)];
+    [imageView setContentMode:UIViewContentModeScaleAspectFill];
+    NSString *imageName = [NSString stringWithFormat:@"s%ld.jpg", index+1];
+    [imageView setImage:[UIImage imageNamed:imageName]];
+    return imageView;
+    
 }
 
 - (NSInteger)numberOfPagesInAutoScrollView:(LJAutoScrollView *)autoScrollView
