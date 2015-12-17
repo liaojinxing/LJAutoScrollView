@@ -29,14 +29,14 @@ Grab the source file into your project.
 
 Or use cocoapods. Here is an example of your podfile:
 
-```
+```objective-c
 pod 'LJAutoScrollView'
 ```
 
 Usage
 ------
 - LJAutoScrollView is a subclass of UIView. Just take it as UIView when initialization.
-```
+```objective-c
 self.autoScrollView = [[LJAutoScrollView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, kAutoScrollViewHeight)];
 
 self.autoScrollView.delegate = self;
@@ -44,7 +44,7 @@ self.autoScrollView.delegate = self;
 
 - Configure it as you like.
 
-```
+```objective-c
 self.autoScrollView.itemSize = CGSizeMake(self.view.frame.size.width, kAutoScrollViewHeight);
 
 self.autoScrollView.scrollInterval = 3.0f;
